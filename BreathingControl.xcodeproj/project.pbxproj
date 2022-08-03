@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDCA01A5289B2581001D87CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A4289B2581001D87CA /* AppDelegate.swift */; };
+		BDCA01A7289B2581001D87CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A6289B2581001D87CA /* SceneDelegate.swift */; };
+		BDCA01A9289B2581001D87CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A8289B2581001D87CA /* ViewController.swift */; };
+		BDCA01AC289B2581001D87CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA01AA289B2581001D87CA /* Main.storyboard */; };
+		BDCA01AF289B2581001D87CA /* BreathingControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01AD289B2581001D87CA /* BreathingControl.xcdatamodeld */; };
+		BDCA01B1289B2582001D87CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCA01B0289B2582001D87CA /* Assets.xcassets */; };
+		BDCA01B4289B2582001D87CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCA01B2289B2582001D87CA /* LaunchScreen.storyboard */; };
+		BDCA01BF289B2583001D87CA /* BreathingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01BE289B2583001D87CA /* BreathingControlTests.swift */; };
+		BDCA01C9289B2583001D87CA /* BreathingControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01C8289B2583001D87CA /* BreathingControlUITests.swift */; };
+		BDCA01CB289B2583001D87CA /* BreathingControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01CA289B2583001D87CA /* BreathingControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDCA01BB289B2583001D87CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCA0199289B2581001D87CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCA01A0289B2581001D87CA;
+			remoteInfo = BreathingControl;
+		};
+		BDCA01C5289B2583001D87CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDCA0199289B2581001D87CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDCA01A0289B2581001D87CA;
+			remoteInfo = BreathingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDCA01A1289B2581001D87CA /* BreathingControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathingControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCA01A4289B2581001D87CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDCA01A6289B2581001D87CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDCA01A8289B2581001D87CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDCA01AB289B2581001D87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDCA01AE289B2581001D87CA /* BreathingControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BreathingControl.xcdatamodel; sourceTree = "<group>"; };
+		BDCA01B0289B2582001D87CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDCA01B3289B2582001D87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDCA01B5289B2582001D87CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDCA01BA289B2583001D87CA /* BreathingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCA01BE289B2583001D87CA /* BreathingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingControlTests.swift; sourceTree = "<group>"; };
+		BDCA01C4289B2583001D87CA /* BreathingControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreathingControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCA01C8289B2583001D87CA /* BreathingControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingControlUITests.swift; sourceTree = "<group>"; };
+		BDCA01CA289B2583001D87CA /* BreathingControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCA019E289B2581001D87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01B7289B2583001D87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01C1289B2583001D87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDCA0198289B2581001D87CA = {
+			isa = PBXGroup;
+			children = (
+				BDCA01A3289B2581001D87CA /* BreathingControl */,
+				BDCA01BD289B2583001D87CA /* BreathingControlTests */,
+				BDCA01C7289B2583001D87CA /* BreathingControlUITests */,
+				BDCA01A2289B2581001D87CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCA01A2289B2581001D87CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA01A1289B2581001D87CA /* BreathingControl.app */,
+				BDCA01BA289B2583001D87CA /* BreathingControlTests.xctest */,
+				BDCA01C4289B2583001D87CA /* BreathingControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCA01A3289B2581001D87CA /* BreathingControl */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA01A4289B2581001D87CA /* AppDelegate.swift */,
+				BDCA01A6289B2581001D87CA /* SceneDelegate.swift */,
+				BDCA01A8289B2581001D87CA /* ViewController.swift */,
+				BDCA01AA289B2581001D87CA /* Main.storyboard */,
+				BDCA01B0289B2582001D87CA /* Assets.xcassets */,
+				BDCA01B2289B2582001D87CA /* LaunchScreen.storyboard */,
+				BDCA01B5289B2582001D87CA /* Info.plist */,
+				BDCA01AD289B2581001D87CA /* BreathingControl.xcdatamodeld */,
+			);
+			path = BreathingControl;
+			sourceTree = "<group>";
+		};
+		BDCA01BD289B2583001D87CA /* BreathingControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA01BE289B2583001D87CA /* BreathingControlTests.swift */,
+			);
+			path = BreathingControlTests;
+			sourceTree = "<group>";
+		};
+		BDCA01C7289B2583001D87CA /* BreathingControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDCA01C8289B2583001D87CA /* BreathingControlUITests.swift */,
+				BDCA01CA289B2583001D87CA /* BreathingControlUITestsLaunchTests.swift */,
+			);
+			path = BreathingControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDCA01A0289B2581001D87CA /* BreathingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCA01CE289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControl" */;
+			buildPhases = (
+				BDCA019D289B2581001D87CA /* Sources */,
+				BDCA019E289B2581001D87CA /* Frameworks */,
+				BDCA019F289B2581001D87CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreathingControl;
+			productName = BreathingControl;
+			productReference = BDCA01A1289B2581001D87CA /* BreathingControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDCA01B9289B2583001D87CA /* BreathingControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCA01D1289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControlTests" */;
+			buildPhases = (
+				BDCA01B6289B2583001D87CA /* Sources */,
+				BDCA01B7289B2583001D87CA /* Frameworks */,
+				BDCA01B8289B2583001D87CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCA01BC289B2583001D87CA /* PBXTargetDependency */,
+			);
+			name = BreathingControlTests;
+			productName = BreathingControlTests;
+			productReference = BDCA01BA289B2583001D87CA /* BreathingControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDCA01C3289B2583001D87CA /* BreathingControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCA01D4289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControlUITests" */;
+			buildPhases = (
+				BDCA01C0289B2583001D87CA /* Sources */,
+				BDCA01C1289B2583001D87CA /* Frameworks */,
+				BDCA01C2289B2583001D87CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDCA01C6289B2583001D87CA /* PBXTargetDependency */,
+			);
+			name = BreathingControlUITests;
+			productName = BreathingControlUITests;
+			productReference = BDCA01C4289B2583001D87CA /* BreathingControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCA0199289B2581001D87CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BDCA01A0289B2581001D87CA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BDCA01B9289B2583001D87CA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDCA01A0289B2581001D87CA;
+					};
+					BDCA01C3289B2583001D87CA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDCA01A0289B2581001D87CA;
+					};
+				};
+			};
+			buildConfigurationList = BDCA019C289B2581001D87CA /* Build configuration list for PBXProject "BreathingControl" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDCA0198289B2581001D87CA;
+			productRefGroup = BDCA01A2289B2581001D87CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDCA01A0289B2581001D87CA /* BreathingControl */,
+				BDCA01B9289B2583001D87CA /* BreathingControlTests */,
+				BDCA01C3289B2583001D87CA /* BreathingControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDCA019F289B2581001D87CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCA01B4289B2582001D87CA /* LaunchScreen.storyboard in Resources */,
+				BDCA01B1289B2582001D87CA /* Assets.xcassets in Resources */,
+				BDCA01AC289B2581001D87CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01B8289B2583001D87CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01C2289B2583001D87CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCA019D289B2581001D87CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCA01A9289B2581001D87CA /* ViewController.swift in Sources */,
+				BDCA01A5289B2581001D87CA /* AppDelegate.swift in Sources */,
+				BDCA01AF289B2581001D87CA /* BreathingControl.xcdatamodeld in Sources */,
+				BDCA01A7289B2581001D87CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01B6289B2583001D87CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCA01BF289B2583001D87CA /* BreathingControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDCA01C0289B2583001D87CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCA01C9289B2583001D87CA /* BreathingControlUITests.swift in Sources */,
+				BDCA01CB289B2583001D87CA /* BreathingControlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDCA01BC289B2583001D87CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCA01A0289B2581001D87CA /* BreathingControl */;
+			targetProxy = BDCA01BB289B2583001D87CA /* PBXContainerItemProxy */;
+		};
+		BDCA01C6289B2583001D87CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDCA01A0289B2581001D87CA /* BreathingControl */;
+			targetProxy = BDCA01C5289B2583001D87CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDCA01AA289B2581001D87CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCA01AB289B2581001D87CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDCA01B2289B2582001D87CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDCA01B3289B2582001D87CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDCA01CC289B2583001D87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDCA01CD289B2583001D87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDCA01CF289B2583001D87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BreathingControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDCA01D0289B2583001D87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BreathingControl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDCA01D2289B2583001D87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingControl.app/BreathingControl";
+			};
+			name = Debug;
+		};
+		BDCA01D3289B2583001D87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreathingControl.app/BreathingControl";
+			};
+			name = Release;
+		};
+		BDCA01D5289B2583001D87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreathingControl;
+			};
+			name = Debug;
+		};
+		BDCA01D6289B2583001D87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z34SF46KFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.BreathingControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BreathingControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCA019C289B2581001D87CA /* Build configuration list for PBXProject "BreathingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCA01CC289B2583001D87CA /* Debug */,
+				BDCA01CD289B2583001D87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCA01CE289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCA01CF289B2583001D87CA /* Debug */,
+				BDCA01D0289B2583001D87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCA01D1289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCA01D2289B2583001D87CA /* Debug */,
+				BDCA01D3289B2583001D87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCA01D4289B2583001D87CA /* Build configuration list for PBXNativeTarget "BreathingControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCA01D5289B2583001D87CA /* Debug */,
+				BDCA01D6289B2583001D87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDCA01AD289B2581001D87CA /* BreathingControl.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDCA01AE289B2581001D87CA /* BreathingControl.xcdatamodel */,
+			);
+			currentVersion = BDCA01AE289B2581001D87CA /* BreathingControl.xcdatamodel */;
+			path = BreathingControl.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDCA0199289B2581001D87CA /* Project object */;
+}
