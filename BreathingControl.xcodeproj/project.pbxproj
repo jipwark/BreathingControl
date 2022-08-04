@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A008583D289B9DBB002C0D9A /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A008583C289B9DBB002C0D9A /* ViewControllerTwo.swift */; };
 		BDCA01A5289B2581001D87CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A4289B2581001D87CA /* AppDelegate.swift */; };
 		BDCA01A7289B2581001D87CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A6289B2581001D87CA /* SceneDelegate.swift */; };
 		BDCA01A9289B2581001D87CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCA01A8289B2581001D87CA /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A008583C289B9DBB002C0D9A /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 		BDCA01A1289B2581001D87CA /* BreathingControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathingControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCA01A4289B2581001D87CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCA01A6289B2581001D87CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				BDCA01A6289B2581001D87CA /* SceneDelegate.swift */,
 				BDCA01A8289B2581001D87CA /* ViewController.swift */,
 				BDCA01AA289B2581001D87CA /* Main.storyboard */,
+				A008583C289B9DBB002C0D9A /* ViewControllerTwo.swift */,
 				BDCA01B0289B2582001D87CA /* Assets.xcassets */,
 				BDCA01B2289B2582001D87CA /* LaunchScreen.storyboard */,
 				BDCA01B5289B2582001D87CA /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A008583D289B9DBB002C0D9A /* ViewControllerTwo.swift in Sources */,
 				BDCA01A9289B2581001D87CA /* ViewController.swift in Sources */,
 				BDCA01A5289B2581001D87CA /* AppDelegate.swift in Sources */,
 				BDCA01AF289B2581001D87CA /* BreathingControl.xcdatamodeld in Sources */,
